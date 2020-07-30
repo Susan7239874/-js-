@@ -3,7 +3,8 @@
 改前用于：小程序   
 改完用于：html渐入式vue  
 
-//开启一个定时器   
+//开启一个定时器
+```
 var wxTimer1 = new timer({  
     beginTime:"00:00:10",  
     name:'wxTimer1',  
@@ -14,13 +15,14 @@ var wxTimer1 = new timer({
 wxTimer1.start(this);//开启定时器  
 
 wxTimer.stop();//关闭定时器  
-
+```
 注意：//下面这2个要写在vue的data中，不然报错  
+```
 wxTimerList:{},  
 timerObj:{},  
-
+```
 使用方法：  
- 
+ ```
 <div id="app">   
  <div>显示剩余时间：{{timerObj.wxTimer}}</div>   
  <div>显示剩余秒数：{{timerObj.wxTimerSecond}}</div>   
@@ -51,3 +53,4 @@ data:{
                     })  
                     this.timer.start(this);  
             }  
+```
