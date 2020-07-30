@@ -1,7 +1,7 @@
 
-由https://github.com/baqihg/wxTimer这个所改的！
-改前用于：小程序
-改完用于：html渐入式vue
+#由https://github.com/baqihg/wxTimer这个所改的！
+#改前用于：小程序
+#改完用于：html渐入式vue
 
 //开启一个定时器
 var wxTimer1 = new timer({
