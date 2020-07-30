@@ -20,19 +20,20 @@ wxTimerList:{},
 timerObj:{},  
 
 使用方法：  
-
-<div id="app">  
- <div>显示剩余时间：{{timerObj.wxTimer}}</div>  
- <div>显示剩余秒数：{{timerObj.wxTimerSecond}}</div>  
-  </div>  
-data:{  
-            timer:null,  
+ 
+<div id="app">   
+ <div>显示剩余时间：{{timerObj.wxTimer}}</div>   
+ <div>显示剩余秒数：{{timerObj.wxTimerSecond}}</div>   
+  </div>    
+  
+data:{    
+            timer:null,    
             wxTimerList:{},  
             timerObj:{},  
             },  
-            methods:{  
-            closefn(){//关闭定时器  
-               this.timer.stop();  
+            methods:{    
+            closefn(){//关闭定时器    
+               this.timer.stop();    
             }  
             },  
             created:{  
