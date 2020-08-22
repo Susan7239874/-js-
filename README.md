@@ -3,6 +3,10 @@
 改前用于：小程序   
 改完用于：html渐入式vue  
 
+引入js文件
+```
+<script src="具体看项目把wxTimer.js放哪儿"></script>
+```
 //开启一个定时器
 ```
 var wxTimer1 = new timer({  
